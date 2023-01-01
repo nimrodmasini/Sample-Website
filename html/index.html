@@ -20,7 +20,7 @@
         <li class="list-item">Magni, sunt dolorem!</li>
     </ul>
     <h2 class="subtitle">Services</h2>
-    <a href="http://www.google.com" class="link">Click here to go to Google</a>
+    <a href="http://www.google.com" class="link" target="_blank">Click here to go to Google</a>
     <table style="border: solid black; border-width: 1px;">
         <thead>
             <tr>
@@ -43,6 +43,28 @@
         </tbody>
     </table>
     <div id="service-image"></div>
+    <div class="container">
+        <div class="container-item" style="order:4; align-self: center;">A</div>
+        <div class="container-item" style="order:3;align-self: flex-end;">B</div>
+        <div class="container-item" style="order:5;align-self: flex-start;">C</div>
+        <div class="container-item" style="order:1; align-self:flex-start;">D</div>
+        <div class="container-item" style="order:2;">E</div>
+    </div>
+    <div class="flexbox">
+        <div class="flexbox-container">F</div>
+        <div class="flexbox-container">G</div>
+        <div class="flexbox-container">H</div>
+        <div class="flexbox-container">I</div>
+        <div class="flexbox-container">J</div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" style="background: rgb(255,150,150);grid-column: 1/span 3;grid-row: 2/span 3;">1</div>
+        <div class="grid-item" style="background-color: rgb(170,255,140);">2</div>
+        <div class="grid-item" style="background: rgb(222,132,255);">3</div>
+        <div class="grid-item" style="background: rgb(255,207,119);">4</div>
+        <div class="grid-item" style="background: rgb(140,210,255);">5</div>
+        <div class="grid-item" style="background: rgb(255,203,99);">5</div>
+    </div>
     <h2 class="subtitle">Contact Us</h2>
     <form>
         <input type="text" placeholder="Full Name" class="form-input">
@@ -53,7 +75,7 @@
         <br>
         <textarea></textarea>
         <br>
-        <button>Submit</button>
+        <button class="submit-button">Submit</button>
     </form>
 </body>
 </html>
